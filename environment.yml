@@ -1,0 +1,13 @@
+name: MeritMe
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - pyarrow
+  - matplotlib
+  - pip
+  - jupyter
+  - pip:
+      - datasets
+      - huggingface_hub
