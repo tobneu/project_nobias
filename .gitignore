@@ -1,5 +1,8 @@
-data/raw/*
-!data/raw/.gitkeep
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+!data/raw/**/README.md
+!data/raw/esco/skills_en.csv
 data/processed/*
 !data/processed/.gitkeep
 __pycache__/
