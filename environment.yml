@@ -6,6 +6,7 @@ dependencies:
   - pandas
   - pyarrow
   - matplotlib
+  - scikit-learn
   - pip
   - jupyter
   - pip:
