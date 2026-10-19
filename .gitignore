@@ -3,6 +3,9 @@ data/raw/**
 !data/raw/**/.gitkeep
 !data/raw/**/README.md
 !data/raw/esco/skills_en.csv
+!data/raw/esco/occupations_en.csv
+!data/raw/esco/occupationSkillRelations_en.csv
+!data/raw/esco/digitalSkillsCollection_en.csv
 data/processed/*
 !data/processed/.gitkeep
 __pycache__/

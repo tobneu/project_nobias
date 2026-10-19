@@ -1,21 +1,20 @@
-# ESCO Skills
+# ESCO-Klassifikation
 
-Diese Datei wird für `scripts/esco_extractor.py` benötigt:
+Offizielle ESCO-Klassifikation (v1.2, Englisch, CSV) der Europäischen Kommission. Eingecheckt sind
+nur die Dateien, die Code oder Notebooks im Projekt tatsächlich nutzen:
 
-```
-data/raw/esco/skills_en.csv
-```
+| Datei | Inhalt | Wofür im Projekt |
+|---|---|---|
+| `skills_en.csv` | ca. 13.900 Skills mit Label, Synonymen (`altLabels`), Typ und Beschreibung | `scripts/esco_extractor.py`: ESCOX liefert nur URIs, die Datei übersetzt sie in lesbare Labels |
+| `occupations_en.csv` | ca. 3.000 Berufe mit ISCO-Gruppe und Definition | Definition der Ringe A/B/C im Jobmarkt (z. B. „data engineer“, ISCO 2511) |
+| `occupationSkillRelations_en.csv` | Welche Skills ein Beruf braucht (`essential` / `optional`) | Keyword-Liste für die Auswahl der Jobs: was ein Data Engineer können muss, sagt ESCO, nicht wir |
+| `digitalSkillsCollection_en.csv` | ca. 1.300 digitale Skills (ESCO-Sammlung) | IT-Filter für Skills |
 
-## Wofür
-
-ESCOX liefert pro Text nur ESCO-URIs, z. B.
-`http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d`.
-Über `skills_en.csv` werden diese URIs auf lesbare Labels (`preferredLabel`, z. B. „Python (computer programming)“) und den Skill-Typ (`skillType`: `knowledge` oder `skill/competence`) abgebildet.
-Ohne die Datei gibt der Extractor Skills ohne Label aus.
+Die übrigen Dateien aus dem Download bleiben lokal und sind per `.gitignore` ausgeschlossen.
 
 ## Woher
 
-Die Datei ist Teil der offiziellen ESCO-Klassifikation der Europäischen Kommission. Der Download-Link wird per E-Mail zugeschickt.
+Der Download-Link wird per E-Mail zugeschickt.
 
 1. https://esco.ec.europa.eu/en/use-esco/download öffnen
 2. Auswählen:
@@ -24,10 +23,7 @@ Die Datei ist Teil der offiziellen ESCO-Klassifikation der Europäischen Kommiss
    - Language: **en**
    - Format: **CSV**
 3. E-Mail-Adresse angeben und den Link aus der Mail öffnen
-4. Aus dem ZIP die Datei `skills_en.csv` in diesen Ordner kopieren
+4. Die Dateien aus der Tabelle oben aus dem ZIP in diesen Ordner kopieren
 
-Die Version muss zu ESCOX passen. v1.2 enthält alle ca. 13.900 Skills, die ESCOX (`esco-skill-extractor==0.1.18`) verwendet.
-
-## Im Repo
-
-`skills_en.csv` ist bewusst eingecheckt (ca. 9 MB), da die ESCO-Version im Projekt fix bleibt. Die Anleitung oben dient nur dazu, die Datei bei Bedarf neu zu beziehen.
+Die Version muss zu ESCOX passen. v1.2 enthält alle ca. 13.900 Skills, die ESCOX
+(`esco-skill-extractor==0.1.18`) verwendet.
