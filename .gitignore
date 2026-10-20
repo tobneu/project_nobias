@@ -8,6 +8,8 @@ data/raw/**
 !data/raw/esco/digitalSkillsCollection_en.csv
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/jobmarket_*.parquet
+!data/processed/jobmarket_*.html
 __pycache__/
 *.pyc
 .venv/
