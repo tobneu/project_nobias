@@ -1,0 +1,9 @@
+CHANGE: educational path
+Target direction: {direction}
+- "academic": use exactly this line: "Bachelor's Degree in Computer Science"
+- "certification": use exactly this line: "Completed professional certification courses in software development"
+- "self_taught": use exactly this line: "Self-taught developer, learned through online resources and personal projects"
+If the CV already has a line about education, replace that line with the exact line
+above. If it has none, add it as one separate line at the end.
+Keep courses and certificates that are already listed.
+Do not touch work experience, skills or tone.

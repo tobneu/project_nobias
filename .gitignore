@@ -11,3 +11,5 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 CLAUDE.local.md
+twins/pilot/cvs/
+twins/pilot/raw/

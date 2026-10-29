@@ -1,0 +1,7 @@
+CHANGE: career path
+Target direction: {direction}
+- "non_linear": add exactly this line directly below the job title line:
+  "Previously worked in customer support before moving into IT."
+- "linear": add exactly this line directly below the job title line:
+  "Continuous career within IT."
+Add nothing else. Do not touch education, skills, tone or any other sentence.
