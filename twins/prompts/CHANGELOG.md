@@ -85,3 +85,24 @@ Prompt-bedingte Befunde in v2: 1 (T25). Damit sind 10 von 11 Tests ohne prompt-b
 - Richtung von all: nur benachteiligt oder auch begünstigt.
 - Hauptfrage: totaler oder isolierter Effekt.
 
+## Pilot v2 (8.11.2026)
+
+60 Zwillinge (12 CVs × 5 Varianten), alle manuell bewertet. Modell einheitlich (`sonnet`), keine harten Fehler im letzten Versuch, keine Neugenerierung.
+
+### Ergebnis
+- 58 von 60 ohne Befund (edu 11/12, lin 12/12, tone 12/12, para 12/12, all 11/12). Alle fünf Kriterien erfüllt, v2 ist für den Volllauf freigegeben.
+- Zwei Befunde, beide beim CV 690dd958 (edu, all): Die feste Bildungszeile ersetzt oder widerspricht dem vorhandenen M.Sc. Im Modus „ersetzen“ wird der Abschluss herabgestuft.
+- Vier all-Zwillinge mit Längen-Flag (Kurz-CVs, +32 bis +46 %), wie erwartet.
+- tone bei all: In fünf Fällen nicht angewendet, davon vier berechtigt (keine wertende Selbstbeschreibung), einer zu streng (5783c329: „Skilled in“).
+- Ein Fall mit Tone-Überschuss (e28d760e: „huge“ zu „fairly good“, Wort ersetzt statt abgeschwächt).
+- Die Spalte `proxies_angewendet` wurde im Pilot nicht automatisch gefüllt, die Beurteilung lief manuell.
+
+### Entscheidungen
+- v2 wird eingefroren.
+- Kodierungsfehler als harter Fehler aufgenommen (siehe Abweichungsprotokoll).
+
+### Offen (Team)
+- v3-Kandidat edu: CVs mit vorhandenem Abschluss (Regel im Prompt oder andere CV-Auswahl).
+- v3-Kandidat tone: Spielraum beim Hedgen bei Selbstbeschreibungen wie „Skilled in“; Wort beibehalten und nur abschwächen.
+- Designgrenze: edu und lin ergänzen im Pilot fast nur Zeilen.
+- `proxies_angewendet` für den Volllauf automatisch füllen?

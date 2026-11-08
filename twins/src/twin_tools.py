@@ -71,7 +71,7 @@ def parse_reply(raw):
 
 
 def check(original, twin, anchors, tol=0.2, show_diff=True, min_slack=0):
-    fehlt = [a for a in anchors if a not in twin]
+    fehlt = [a for a in anchors if a.lower() not in twin.lower()]
     n_o, n_t = len(original.split()), len(twin.split())
     ratio = n_t / n_o
     erste_zeile_gleich = original.splitlines()[0].strip() == twin.splitlines()[0].strip()

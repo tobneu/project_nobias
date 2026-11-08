@@ -13,3 +13,5 @@ __pycache__/
 CLAUDE.local.md
 twins/pilot/cvs/
 twins/pilot/raw/
+twins/keywords.pkl
+twins/markt_ids.csv

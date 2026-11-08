@@ -45,13 +45,14 @@ Falls das Team für den Vollauf auch die Richtung begünstigt bei `all` vorsieht
 ## 5. Automatische Prüfungen
 Harte Fehler (Zwilling wird neu erzeugt, höchstens zwei Neugenerierungen):
 - Antwort ist kein gültiges JSON.
-- Ein Anker fehlt oder ist anders geschrieben.
+- Ein Anker fehlt. Geprüft wird, ob der Anker als Zeichenfolge im Zwilling vorkommt, ohne Beachtung der Groß- und Kleinschreibung. Eine andere Schreibweise (zum Beispiel ein Zeichen oder ein Wort anders) zählt als fehlend.
 - Der Titel (erste Zeile) ist verändert.
+- Die Zeichenkodierung ist beschädigt (Kodierungsreste wie "ï¿½", "â€", "Ã" oder das Ersatzzeichen U+FFFD im Zwilling). Eingeführt am 8.11.2026, nachdem beim Pilotstart ein Kodierungsfehler im Aufruf aufgetreten war (siehe Abweichungsprotokoll).
 
 Flags (werden gespeichert, führen nicht zum Verwerfen):
-- Länge außerhalb der Toleranz.
+- Länge außerhalb der Toleranz. Toleranz für `edu`, `lin`, `tone` und `para`: ±20 % und höchstens 10 Wörter Spielraum bei kurzen CVs. Für `all`: ±30 % und 15 Wörter, weil drei Änderungen zusammenkommen.
 - Änderungsanteil (Anteil geänderter Wörter).
-- `proxies_angewendet` (bei `all`: welche der drei Proxies tatsächlich geändert wurden).
+- `proxies_angewendet` (bei `all`: welche der drei Proxies tatsächlich geändert wurden). Im Pilot wurde diese Angabe nicht automatisch gefüllt, sondern in der manuellen Bewertung beurteilt (Spalten `ein_proxy` und `problem`).
 
 ## 6. Manuelle Bewertung und Befund-Definition
 Alle 60 Zwillinge werden von Hand geprüft, mit denselben Fragen wie im Testlog: nur das gewollte Merkmal geändert, nichts erfunden, natürlicher Text, Urteil, Problem.
@@ -87,7 +88,22 @@ Der Pilot gilt als bestanden, wenn alle folgenden Punkte erfüllt sind:
 Verschiebt `hedged` die Ähnlichkeit zur Stellenbeschreibung messbar stärker als die Rauschgrenze `para`? Dazu wird pro Zwilling die Veränderung des Scores gegenüber dem Original berechnet und nach Variante und Richtung beschrieben (deskriptiv, ohne Signifikanztest, da je Gruppe nur 6 bis 12 Werte). Ist hedged kaum von para zu unterscheiden, wird vor dem Vollauf im Team über mehr Spielraum für Selbstbeschreibungen in hedged entschieden (mögliche v3).
 
 ## 10. Abweichungsprotokoll
-| Datum | Abweichung | Begründung |
-|---|---|---|
-| | | |
+
+**1. Zeichenkodierung (8.11.2026).** Die ersten Zwillinge enthielten Kodierungsreste ("ï¿½"), weil der Aufruf des Modells unter Windows nicht als UTF-8 lief. Korrektur: `encoding="utf-8"` im Aufruf und Kodierungsreste als harter Fehler (Abschnitt 5). Betroffene Zwillinge wurden verschoben und neu erzeugt. Der Prüfbefehl `zeichen` meldet 15 Zwillinge mit Sonderzeichen im Original (•, ’, geschütztes Leerzeichen). In keinem wurde ein Kodierungsrest gefunden, daher keine weitere Neuerzeugung.
+
+**2. Modell (8.11.2026).** Die ersten drei Zwillinge entstanden mit dem Standardmodell der CLI. Sie wurden nach `pilot/raw/modelltest/` verschoben und mit `--cli-model sonnet` neu erzeugt. Das Modell-Label in der Dokumentation ist eine Angabe der Bearbeiterin und wird nicht automatisch geprüft. Die Erzeugung ist nicht reproduzierbar (keine Steuerung der Temperatur über die CLI), das gilt als Limitation.
+
+**Pilot-Ergebnis (8.11.2026):** 60 Zwillinge (12 CVs × 5 Varianten, Prompts v2) wurden erzeugt und vollständig manuell bewertet. 58 von 60 ohne Befund (edu 11/12, lin 12/12, tone 12/12, para 12/12, all 11/12). Keine erfundenen Inhalte, kein fehlender Anker, keine Titeländerung, keine Neugenerierung, kein Fehlschlag. Alle fünf Kriterien sind erfüllt.
+
+**Entscheidung:** Prompts v2 werden für den Volllauf eingefroren.
+
+**Befunde:** Zwei Befunde, beide beim CV 690dd958: Die feste Bildungszeile widerspricht dem vorhandenen M.Sc. (edu, all).
+
+**Beobachtungen für Auswertung und Limitationen:**
+- Bei vier `all`-Zwillingen Längen-Flag (Kurz-CVs, +32 bis +46 %).
+- Tone wurde bei fünf `all`-Zwillingen nicht angewendet, davon vier berechtigt (keine wertende Selbstbeschreibung), einer zu streng ("Skilled in").
+- Ein Fall mit Tone-Überschuss ("huge" zu "fairly good").
+- `edu` und `lin` ergänzen nur Zeilen.
+
+**Offene Punkte vor dem Volllauf:** Behandlung von CVs mit vorhandenem Abschluss (edu), Spielraum beim Hedgen (tone). Entscheidung im Team.
 
