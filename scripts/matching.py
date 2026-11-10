@@ -1,5 +1,6 @@
 import re
 from pathlib import Path
+from esco_skill_extractor import SkillExtractor
 
 import pandas as pd
 
@@ -25,6 +26,20 @@ NOISE_PHRASES = {"it", "less", "pos", "saas", "io", "ar", "ct", "ort", "nec", "a
 # "+" und "#" zählen zum Wort, sonst würde "c" auch in "c++" treffen.
 NOT_INSIDE_WORD_BEFORE = r"(?<![\w+#])"
 NOT_INSIDE_WORD_AFTER = r"(?![\w+#])"
+
+### ESCOX Settings
+ESCOX_MODEL = "all-MiniLM-L6-v2"
+SIMILARITY_THRESHOLD = 0.5
+
+# Stellen, an denen ein Text in Phrasen zerfällt
+LINE_BREAK = r"[\r\n\t]+"
+SENTENCE_END = r"\.(?=\s|$)"            # Punkt nur am Satzende, "Node.js" bleibt ganz
+LIST_SEPARATOR = r"[,;/|•·&]"
+DASH_WITH_SPACES = r"\s[-–—]\s"         # " - " trennt, "self-taught" nicht
+CONJUNCTION = r"\band\b|\bor\b"         # nur ganze Wörter, nicht "and" in "standard"
+PHRASE_BOUNDARY = re.compile(
+    "|".join([LINE_BREAK, SENTENCE_END, LIST_SEPARATOR, DASH_WITH_SPACES, CONJUNCTION]), re.IGNORECASE)
+###
 
 
 def load_esco_skills():
@@ -79,6 +94,18 @@ def build_phrase_pattern(phrases):
     any_phrase = "|".join(re.escape(phrase) for phrase in phrases_longest_first)
     return re.compile(NOT_INSIDE_WORD_BEFORE + "(" + any_phrase + ")" + NOT_INSIDE_WORD_AFTER, re.IGNORECASE)
 
+def split_into_phrases(text):
+    """'Python and SQL, Node.js' -> ['Python', 'SQL', 'Node.js']"""
+    phrases = [phrase.strip() for phrase in PHRASE_BOUNDARY.split(text)]
+    return [phrase for phrase in phrases if phrase]
+
+
+def load_escox():
+    """ESCOX mit korrigierter Textzerlegung denn standard ESCOX trennt innerhalb von Wörtern."""
+    escox = SkillExtractor(model=ESCOX_MODEL, skills_threshold=SIMILARITY_THRESHOLD, device="cpu")
+    escox._texts_to_tokens = lambda texts: [split_into_phrases(text) for text in texts]
+    return escox
+
 
 ESCO_SKILLS = load_esco_skills()
 IT_SKILLS = load_it_skills()
@@ -93,3 +120,10 @@ def find_skills_by_name(text):
     for phrase in SKILL_PHRASE_PATTERN.findall(text):
         found_skills |= SKILLS_BY_PHRASE.get(phrase.lower(), set())
     return found_skills
+
+ESCOX = load_escox()
+
+
+def find_skills_by_meaning(text):
+    """ESCO-Skills, die einer Phrase im Text inhaltlich am ähnlichsten sind."""
+    return set(ESCOX.get_skills([text])[0])
