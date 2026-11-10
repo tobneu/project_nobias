@@ -127,3 +127,22 @@ ESCOX = load_escox()
 def find_skills_by_meaning(text):
     """ESCO-Skills, die einer Phrase im Text inhaltlich am ähnlichsten sind."""
     return set(ESCOX.get_skills([text])[0])
+
+def extract_skills(text):
+    """Alle IT-Skills eines Textes, gefunden über Namen oder Bedeutung."""
+    found_by_name = find_skills_by_name(text)
+    found_by_meaning = find_skills_by_meaning(text)
+    return set((found_by_name | found_by_meaning) & IT_SKILLS - NOISE_SKILLS)
+
+
+def match(job_text, cv_text):
+    """Vergleicht Stelle und CV. Score = Anteil der geforderten Skills, die der CV abdeckt."""
+    required = extract_skills(job_text)
+    offered = extract_skills(cv_text)
+    matched = required & offered
+    return {
+        "score": len(matched) / len(required) if required else 0.0,
+        "matched": matched,
+        "missing": required - offered,
+        "extra": offered - required,
+    }
