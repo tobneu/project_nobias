@@ -17,6 +17,7 @@ Jeder Zwilling muss alle Anker (Skill-Begriffe des CVs) wörtlich enthalten, den
 - **Pilot:** 12 CVs, 60 Zwillinge, manuell bewertet. Alle Kriterien erfüllt, Prompt-Version v2 eingefroren.
 - **Vollauf:** 600 Zwillinge aus 120 Quell-CVs, Prompt v2 unverändert, Kriterien und Entscheidungsregeln in `vollauf/protokoll_vollauf.md`.
 - **Zwillingsdatei für das Scoring:** `data/processed/twins_vollauf_v2.parquet` (nur verwendbare Zwillinge, Spalten: `twin_id`, `cv_id`, `id`, `ring`, `test`, `variante`, `richtung`, `assigned_job_id`, `text_zwilling`).
+- **Viewer:** `data/processed/vollauf_zwillinge.html` (alle Zwillinge mit Original, im Browser öffnen).
 
 ## Struktur
 ```
@@ -57,6 +58,7 @@ vollauf/vollauf_zwillinge.parquet   Zwillingstabelle mit Texten             (nic
 | `src/vollauf_generate.py` | Kommandos `plan`, `run`, `status`, `check`, `stichprobe`, `zeichen`; Erzeugung wiederaufnehmbar |
 | `src/vollauf_review.py` | Manuelle Prüfung der Stichprobe (60 Zwillinge), `--auswertung` prüft die Kriterien |
 | `src/vollauf_export.py` | Erzeugt die Zwillingstabelle (Parquet, lokal) und die Übersicht ohne Text |
+| `src/vollauf_html.py` | Erzeugt einen HTML-Viewer (`vollauf_zwillinge.html`) mit Filtern und Diff Original gegen Zwilling |
 
 Alle Befehle im Ordner `twins` ausführen.
 
@@ -87,7 +89,7 @@ Das Testlog nicht in Excel öffnen, solange ein Skript darauf schreibt.
 6. `python src/vollauf_review.py` für die manuelle Prüfung der Stichprobe, danach `--auswertung`.
 7. `python src/vollauf_export.py` schreibt die Zwillingstabelle und die Übersicht.
 
-Benötigte Daten (nicht in Git, außer der Zwillingsdatei): `data/processed/jobmarket_data-engineer_180cv_2026-10-20.parquet` mit der Rolle `zwilling_quelle`) und `data/raw/djinni/cv_profiles_en.parquet`.
+Benötigte Daten (nicht in Git, außer der Zwillingsdatei): `data/processed/jobmarket_data-engineer_180cv_2026-10-20.parquet` (mit der Rolle `zwilling_quelle`) und `data/raw/djinni/cv_profiles_en.parquet`.
 
 ## Regeln
 - Eine Prompt-Version ändert sich nur mit Eintrag im Changelog (Änderung, Grund, Test-ID des Befunds). Maximal drei Versionen pro Variante.
