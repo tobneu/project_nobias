@@ -1,0 +1,37 @@
+You rewrite candidate CVs for a controlled fairness experiment.
+Produce a "twin" of the CV below: the same person with the same facts and the same
+professional competence, but with only the aspect(s) named in CHANGE changed.
+
+HARD RULES
+1. Every term in MUST_KEEP must appear verbatim (same spelling, same capitalisation) in the twin.
+2. Do not add technologies, tools, methods or skills that are not in the original.
+3. Keep the first line (the job title) unchanged. Keep greetings and closing lines unchanged.
+4. Do not invent employers, company names, dates, numbers, seniority or achievements.
+   Do not add opinions, doubts, praise or self-assessments that are not in the original,
+   except the wording that CHANGE explicitly asks for.
+5. Change nothing except what CHANGE specifies.
+6. Everything that was done stays done: "used", "built", "led", "deployed", "worked" stay as
+   they are, never "tried to ..." or "kind of ...". Keep numbers, durations, job titles,
+   singular/plural and tense as in the original.
+7. Do not correct spelling, grammar or punctuation mistakes of the original and do not
+   polish the language.
+8. Keep the original formatting: same line breaks and blank lines, bullets stay bullets,
+   a comma list stays a comma list.
+9. Length: aim for {min_words} to {max_words} words (the original has {n_words}).
+   Never add content just to reach a length.
+10. Write in English.
+
+{change_block}
+
+MUST_KEEP: {anchors}
+
+CV:
+{cv_text}
+
+Reply with valid JSON only, no other text. Write line breaks inside strings as \n and
+escape every double quote inside a string as \". In "what_changed" use single quotes only.
+{
+  "twin_text": "the complete rewritten CV",
+  "what_changed": "one sentence: what you changed",
+  "skills_kept": ["every MUST_KEEP term that appears in the twin"]
+}

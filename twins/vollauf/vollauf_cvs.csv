@@ -1,0 +1,121 @@
+cv_id,id,ring,test,primary_keyword,cv_typ,n_words,n_hits,assigned_job_id
+0319811e,0319811e-9f8e-50e8-ba64-84c200924b11,A,haupttest,Data Engineer,Prosa,106,6,cd8d0a4d-c3ab-55ff-bcc4-392ef9c64fc2
+05562c39,05562c39-cb82-5e9d-96f6-285b1a79a15d,A,haupttest,Data Engineer,Prosa,130,7,fd74885a-ae83-5fbd-8ca6-56466db0f9c0
+05a0fc37,05a0fc37-da93-5d84-963f-ce9ef45a88b7,A,haupttest,Data Engineer,Liste,260,15,fd74885a-ae83-5fbd-8ca6-56466db0f9c0
+0a6050be,0a6050be-bfa8-5476-8edf-267e4763f222,A,haupttest,Data Engineer,Liste,352,16,e397f20b-0fe5-5929-9e50-ae879025ba60
+0bd149c5,0bd149c5-39c8-5b5b-a734-2eb2120c3930,A,haupttest,Data Engineer,Liste,131,14,31bff990-1eb3-5160-844a-05ec2d5ba843
+0bebc8f0,0bebc8f0-282b-521c-a5f8-00da850de144,A,haupttest,Data Engineer,Prosa,163,10,0c21e39d-9bf7-5210-8a8f-ede066df71c1
+0edaed5d,0edaed5d-163b-533c-8741-5462863d48a2,A,haupttest,Data Engineer,kurz,45,5,951f9b60-a6d9-59e7-8b98-4b74db572b81
+12338480,12338480-7151-5043-8539-0696cded56bc,A,haupttest,Data Engineer,Liste,77,7,96d25346-883a-5d4a-8bcf-afc24393d443
+12afb2d7,12afb2d7-70cb-5793-b502-da31c59e7a8a,A,haupttest,Data Engineer,Liste,76,8,4606c164-d4f8-563d-9b54-46e437a416ec
+15e1c943,15e1c943-1e00-5347-8d2b-d6a96f0cd6cb,A,haupttest,Data Engineer,Liste,138,6,31bff990-1eb3-5160-844a-05ec2d5ba843
+1774ceb0,1774ceb0-05dc-5ab3-9903-e5971a6ea5ce,A,haupttest,Data Engineer,Prosa,150,12,f90fd552-f422-5fca-9dab-e22ffdbaabbc
+17bb380a,17bb380a-a5cd-5afd-bde8-d2d514a1eddd,A,haupttest,Data Engineer,Liste,264,13,e397f20b-0fe5-5929-9e50-ae879025ba60
+31a1f37d,31a1f37d-ac18-50f5-a506-50ed9c7392a3,A,haupttest,Data Engineer,Prosa,144,13,31bff990-1eb3-5160-844a-05ec2d5ba843
+35820d76,35820d76-35c9-5323-aaca-2199b1d4da89,A,haupttest,Data Engineer,Prosa,92,9,68479996-5805-55d1-bdce-615af8b13448
+386c6f93,386c6f93-3465-5f6a-8ab7-60e8ec897114,A,haupttest,Data Engineer,Prosa,86,6,85245ac8-fc3c-5ce2-bac7-1d46466ad844
+40c298fe,40c298fe-ef57-515e-aa46-378bf2376855,A,haupttest,Data Engineer,Liste,290,8,ab19c3cf-d79d-5113-aa40-7c4ddc4b71f3
+42fdc6cb,42fdc6cb-2e3e-544d-aac8-8211cb909063,A,haupttest,Data Engineer,Liste,182,8,bdb094f4-8573-5931-80c0-9b0fa194d522
+447452d9,447452d9-45a6-5292-be73-de71583e260f,A,haupttest,Data Engineer,Liste,187,14,e397f20b-0fe5-5929-9e50-ae879025ba60
+454c6551,454c6551-5c49-585b-b3c8-f225c3190e87,A,haupttest,Data Engineer,Prosa,211,10,96d25346-883a-5d4a-8bcf-afc24393d443
+4bfa4d77,4bfa4d77-4656-5ea1-bc7a-4e8d19214a01,A,haupttest,Data Engineer,Liste,116,7,42e0fa11-3c58-5e9c-8745-1dd276bcd75f
+58ffc30d,58ffc30d-6eb5-5cef-8fa9-32b38ab4db2e,A,haupttest,Data Engineer,Prosa,192,6,85245ac8-fc3c-5ce2-bac7-1d46466ad844
+5c19ad6b,5c19ad6b-acfa-5827-93ff-5f7a292c590f,A,haupttest,Data Engineer,Liste,160,10,4ffc8c0e-eaaf-506d-ac03-b3a185d828c5
+5ead1505,5ead1505-d3c3-5d18-bd9a-0e767287cd67,A,haupttest,Data Engineer,Prosa,88,5,4ffc8c0e-eaaf-506d-ac03-b3a185d828c5
+5fce1780,5fce1780-8540-5a2b-b640-1e90f39d3171,A,haupttest,Data Engineer,Liste,67,6,76f7039d-7de1-5f53-a77d-a94085d9ebaa
+61b9c16f,61b9c16f-5442-5c7e-8c0f-b31460ad9c98,A,haupttest,Data Engineer,Prosa,394,23,31bff990-1eb3-5160-844a-05ec2d5ba843
+61e30b02,61e30b02-a52b-5b89-b04c-6517e6566143,A,haupttest,Data Engineer,kurz,46,7,4ffc8c0e-eaaf-506d-ac03-b3a185d828c5
+61fbce69,61fbce69-9322-5b15-8cf9-b0106034aa03,A,haupttest,Data Engineer,kurz,39,6,0b04e287-8e84-594b-b448-98ab6725580f
+6322e63b,6322e63b-cfc4-5c0e-850b-d9cfbf962126,A,haupttest,Data Engineer,Prosa,424,10,4606c164-d4f8-563d-9b54-46e437a416ec
+63eff3f6,63eff3f6-7777-541d-9e91-95ea5987805e,A,haupttest,Data Engineer,Liste,144,11,951f9b60-a6d9-59e7-8b98-4b74db572b81
+65649f54,65649f54-ba63-5fe4-8fca-72b5e54ac240,A,haupttest,Data Engineer,kurz,55,9,0b04e287-8e84-594b-b448-98ab6725580f
+67631c9b,67631c9b-97ef-59d3-a846-856b279fd89a,A,haupttest,Data Engineer,Prosa,144,6,d1299e96-7b85-533a-926e-2b4f09da6098
+6a80bfcb,6a80bfcb-0b3e-57a1-b723-2e2809fbcf9a,A,haupttest,Data Engineer,Prosa,378,13,951f9b60-a6d9-59e7-8b98-4b74db572b81
+6ca8f871,6ca8f871-0239-50d2-b177-ae6e1d83524b,A,haupttest,Data Engineer,Prosa,99,7,e1f3243b-b5bd-5b6a-8a1e-26b8190d39c4
+71646f24,71646f24-ea38-589d-88a6-108d13941bae,A,haupttest,Data Engineer,Prosa,162,9,d1299e96-7b85-533a-926e-2b4f09da6098
+729d64f5,729d64f5-8d47-5923-89e2-87065e20a2a6,A,haupttest,Data Engineer,Liste,124,11,68479996-5805-55d1-bdce-615af8b13448
+74454101,74454101-1d12-5f32-b970-33c63869fef0,A,haupttest,Data Engineer,kurz,31,5,42e0fa11-3c58-5e9c-8745-1dd276bcd75f
+785bcc6c,785bcc6c-29ab-565c-a7e3-089219ee7159,A,haupttest,Data Engineer,Liste,169,9,4606c164-d4f8-563d-9b54-46e437a416ec
+7bf67dd2,7bf67dd2-3551-570c-a8fa-c281af0a9b31,A,haupttest,Data Engineer,Liste,163,21,76f7039d-7de1-5f53-a77d-a94085d9ebaa
+80e1d315,80e1d315-f1b1-5ea6-9dd7-b8e99425a729,A,haupttest,Data Engineer,Liste,63,7,0b04e287-8e84-594b-b448-98ab6725580f
+8f0f2e32,8f0f2e32-3b35-51fb-acc3-f0a089beed5d,A,haupttest,Data Engineer,Prosa,303,9,f90fd552-f422-5fca-9dab-e22ffdbaabbc
+901dfc6d,901dfc6d-7eb5-535e-95a8-1a45182f3106,A,haupttest,Data Engineer,Prosa,247,13,fd74885a-ae83-5fbd-8ca6-56466db0f9c0
+93775b3a,93775b3a-ad81-56b2-8ee1-9f0fc1cb549d,A,haupttest,Data Engineer,Liste,240,14,c60ce430-a6b0-5476-ac7f-fcb95e24e6c7
+9dce2c38,9dce2c38-3965-5c81-8302-aa5410407a64,A,haupttest,Data Engineer,Liste,120,15,c60ce430-a6b0-5476-ac7f-fcb95e24e6c7
+a325fe0a,a325fe0a-53c0-5ea0-90b2-be4b12e61c72,A,haupttest,Data Engineer,Prosa,269,15,d1299e96-7b85-533a-926e-2b4f09da6098
+a38a3791,a38a3791-7522-511d-a356-d7ae0cf402b6,A,haupttest,Data Engineer,kurz,57,7,e1f3243b-b5bd-5b6a-8a1e-26b8190d39c4
+a3fb4c6c,a3fb4c6c-4435-51bd-bc94-9157f08c6c7e,A,haupttest,Data Engineer,Prosa,436,10,42e0fa11-3c58-5e9c-8745-1dd276bcd75f
+aedbe70c,aedbe70c-fed5-5cd7-aed2-2f24ac22c78d,A,haupttest,Data Engineer,Prosa,63,5,68479996-5805-55d1-bdce-615af8b13448
+b0a54699,b0a54699-7895-54a8-8ed5-1a86d3340c2e,A,haupttest,Data Engineer,Prosa,97,8,bdb094f4-8573-5931-80c0-9b0fa194d522
+b1b7579f,b1b7579f-afcb-5151-bdfb-df8b9bf7469a,A,haupttest,Data Engineer,Liste,98,5,bdb094f4-8573-5931-80c0-9b0fa194d522
+b27811e4,b27811e4-7670-50f8-830d-d3f0c02c8a25,A,haupttest,Data Engineer,Liste,137,6,76f7039d-7de1-5f53-a77d-a94085d9ebaa
+b364f4be,b364f4be-af0e-53cd-b371-ba9d523bb576,A,haupttest,Data Engineer,Prosa,106,6,d1299e96-7b85-533a-926e-2b4f09da6098
+b668c947,b668c947-52a9-5e1a-9e71-8670e343ad47,A,haupttest,Data Engineer,Prosa,127,7,cd8d0a4d-c3ab-55ff-bcc4-392ef9c64fc2
+bbda2226,bbda2226-78c3-5b9e-9390-e79d26fd7756,A,haupttest,Data Engineer,Liste,212,15,0b04e287-8e84-594b-b448-98ab6725580f
+bd60542a,bd60542a-846e-53f4-9d9d-a48f84c83c90,A,haupttest,Data Engineer,Liste,226,15,ab19c3cf-d79d-5113-aa40-7c4ddc4b71f3
+bdde98c7,bdde98c7-5194-5c11-b772-8d8050be12de,A,haupttest,Data Engineer,Prosa,204,10,4ffc8c0e-eaaf-506d-ac03-b3a185d828c5
+be551012,be551012-f798-5b16-9195-92dea7fe6042,A,haupttest,Data Engineer,Prosa,116,8,76f7039d-7de1-5f53-a77d-a94085d9ebaa
+c76afff7,c76afff7-a827-5c48-bb65-281c4dfd29da,A,haupttest,Data Engineer,Liste,71,11,c60ce430-a6b0-5476-ac7f-fcb95e24e6c7
+c920a9f1,c920a9f1-11b3-55e8-a21e-90fa1dc1a753,A,haupttest,Data Engineer,Liste,194,11,e397f20b-0fe5-5929-9e50-ae879025ba60
+cb164cf3,cb164cf3-d1cd-50ca-9fb6-1cd97b2bcb18,A,haupttest,Data Engineer,Prosa,276,8,ab19c3cf-d79d-5113-aa40-7c4ddc4b71f3
+cbeb6744,cbeb6744-a26f-59b2-b5a6-284b0d056b6f,A,haupttest,Data Engineer,Prosa,229,7,e1f3243b-b5bd-5b6a-8a1e-26b8190d39c4
+ce621d87,ce621d87-1341-55b3-a09b-fcfbd034e514,A,haupttest,Data Engineer,kurz,54,7,0c21e39d-9bf7-5210-8a8f-ede066df71c1
+e2e05ecf,e2e05ecf-b25c-54f5-9fe6-7b9b3974d55f,A,haupttest,Data Engineer,Liste,122,9,0c21e39d-9bf7-5210-8a8f-ede066df71c1
+e3d9c934,e3d9c934-80d6-53d6-9413-c3227b312eee,A,haupttest,Data Engineer,Prosa,279,12,42e0fa11-3c58-5e9c-8745-1dd276bcd75f
+e79eabb1,e79eabb1-1b33-5624-b7a9-9cdc924dec67,A,haupttest,Data Engineer,Liste,245,14,cd8d0a4d-c3ab-55ff-bcc4-392ef9c64fc2
+eae79ca5,eae79ca5-8f92-5cea-a277-151399de358f,A,haupttest,Data Engineer,Prosa,129,7,951f9b60-a6d9-59e7-8b98-4b74db572b81
+ef68c9f5,ef68c9f5-969e-59e7-926f-94a1665904a6,A,haupttest,Data Engineer,Liste,76,10,96d25346-883a-5d4a-8bcf-afc24393d443
+f70636fc,f70636fc-8f2f-5733-9ba7-0e6a5ad58679,A,haupttest,Data Engineer,Prosa,190,5,4606c164-d4f8-563d-9b54-46e437a416ec
+f79ec0d2,f79ec0d2-4fcf-5723-aa4d-dfa74915026e,A,haupttest,Data Engineer,Liste,105,10,85245ac8-fc3c-5ce2-bac7-1d46466ad844
+fc7d3434,fc7d3434-eefc-5be4-b702-fdc6bf77aff9,A,haupttest,Data Engineer,Liste,210,8,85245ac8-fc3c-5ce2-bac7-1d46466ad844
+ffe94b90,ffe94b90-aea9-5083-af8a-2f0b55cb1448,A,haupttest,Data Engineer,Prosa,106,13,f90fd552-f422-5fca-9dab-e22ffdbaabbc
+03a42f10,03a42f10-7fee-5c22-9edb-ed052e74d3d1,B,haupttest,Python,Prosa,305,10,0c21e39d-9bf7-5210-8a8f-ede066df71c1
+064b27f3,064b27f3-22dc-513e-9bea-c64b95bf48ab,B,haupttest,Python,Prosa,129,5,f90fd552-f422-5fca-9dab-e22ffdbaabbc
+06e70076,06e70076-7bf1-5e3e-a3e4-30f81c88583a,B,haupttest,Python,Prosa,130,5,31bff990-1eb3-5160-844a-05ec2d5ba843
+12f0e5d1,12f0e5d1-6c27-5bfc-b006-27ac40820976,B,haupttest,Python,Prosa,205,6,85245ac8-fc3c-5ce2-bac7-1d46466ad844
+1a4e710c,1a4e710c-c1d3-5453-a28d-52287956a43c,B,haupttest,Python,kurz,56,8,76f7039d-7de1-5f53-a77d-a94085d9ebaa
+229057e1,229057e1-e3da-54fc-be17-3f82503f0e94,B,haupttest,Python,Liste,63,5,42e0fa11-3c58-5e9c-8745-1dd276bcd75f
+312e406e,312e406e-8d47-522a-b671-5afaa8e09fc5,B,haupttest,Python,kurz,48,5,4ffc8c0e-eaaf-506d-ac03-b3a185d828c5
+3794fbbe,3794fbbe-ff83-57ac-b286-b277d37d69fe,B,haupttest,Python,Liste,120,8,cd8d0a4d-c3ab-55ff-bcc4-392ef9c64fc2
+4f8182e0,4f8182e0-b654-5b08-8965-3ce5bae94fed,B,haupttest,Python,kurz,44,6,bdb094f4-8573-5931-80c0-9b0fa194d522
+51541e74,51541e74-463f-56d0-ab4a-7ce57c88b255,B,haupttest,Python,Prosa,143,5,ab19c3cf-d79d-5113-aa40-7c4ddc4b71f3
+57e80034,57e80034-ac39-501b-82c1-d8f0ef197626,B,haupttest,Python,Prosa,200,7,f90fd552-f422-5fca-9dab-e22ffdbaabbc
+61437fa5,61437fa5-d55a-528a-9596-1248d0d71aae,B,haupttest,Python,Prosa,416,7,fd74885a-ae83-5fbd-8ca6-56466db0f9c0
+616563a8,616563a8-eff7-5266-b6cf-9be004174e60,B,haupttest,Python,Prosa,248,8,4606c164-d4f8-563d-9b54-46e437a416ec
+69414faa,69414faa-2127-5471-81fe-619a02947921,B,haupttest,Python,Prosa,103,5,96d25346-883a-5d4a-8bcf-afc24393d443
+6ba3a606,6ba3a606-9cc2-56e1-9fda-02f8a896f1cc,B,haupttest,Python,Prosa,151,9,d1299e96-7b85-533a-926e-2b4f09da6098
+8404c920,8404c920-ff9b-53c7-a386-380adfc56cc9,B,haupttest,Python,kurz,56,6,e397f20b-0fe5-5929-9e50-ae879025ba60
+868e6417,868e6417-9ce8-5b1c-811e-6fd19175faea,B,haupttest,Python,Liste,83,8,bdb094f4-8573-5931-80c0-9b0fa194d522
+878a60ef,878a60ef-1c45-5164-b39b-35e0e3840e19,B,haupttest,Python,Liste,71,5,e1f3243b-b5bd-5b6a-8a1e-26b8190d39c4
+93dbabbe,93dbabbe-e868-5109-b925-44584ac2b904,B,haupttest,Python,Prosa,80,6,fd74885a-ae83-5fbd-8ca6-56466db0f9c0
+c28ac16a,c28ac16a-9077-5908-8d88-a5dd9daa2dbb,B,haupttest,Python,Prosa,242,5,68479996-5805-55d1-bdce-615af8b13448
+c58e6075,c58e6075-d54a-5ab3-ba18-5522c0278b12,B,haupttest,Python,Prosa,66,9,951f9b60-a6d9-59e7-8b98-4b74db572b81
+cb1ef2a9,cb1ef2a9-26e4-54ea-bb32-f2c4320ad39e,B,haupttest,Python,Prosa,153,12,c60ce430-a6b0-5476-ac7f-fcb95e24e6c7
+d33a31d9,d33a31d9-839e-5069-a8c6-971761887038,B,haupttest,Python,Liste,93,7,0b04e287-8e84-594b-b448-98ab6725580f
+dec80d4e,dec80d4e-d0e4-51a8-8221-f9093559ef2f,B,haupttest,Python,Liste,109,6,68479996-5805-55d1-bdce-615af8b13448
+e16aa1a8,e16aa1a8-b756-5070-a97f-1729e650ac2c,B,haupttest,Python,Liste,284,9,0c21e39d-9bf7-5210-8a8f-ede066df71c1
+e85e7d97,e85e7d97-161b-53e5-85b2-0626ead0d87d,B,haupttest,Python,Prosa,135,6,96d25346-883a-5d4a-8bcf-afc24393d443
+ea35cb8a,ea35cb8a-7cfd-55f1-b243-d7e3861b2d6c,B,haupttest,Python,Prosa,107,8,cd8d0a4d-c3ab-55ff-bcc4-392ef9c64fc2
+ee2771c6,ee2771c6-13cb-5119-a33d-e6be599c6be5,B,haupttest,Python,Prosa,85,5,e1f3243b-b5bd-5b6a-8a1e-26b8190d39c4
+eeb34d22,eeb34d22-7ae1-54ca-8469-b5a6c7f22fb3,B,haupttest,Python,Liste,157,11,ab19c3cf-d79d-5113-aa40-7c4ddc4b71f3
+f12d5fc4,f12d5fc4-ed2e-544e-90ca-2849d8beb587,B,haupttest,Python,Liste,103,6,c60ce430-a6b0-5476-ac7f-fcb95e24e6c7
+28da9b60,28da9b60-193a-5984-befa-57f3b9c7ca22,C,kontrolle,QA Automation,Liste,270,7,c60ce430-a6b0-5476-ac7f-fcb95e24e6c7
+313129d8,313129d8-661a-56aa-89cc-189ba2eb0336,C,kontrolle,QA Automation,Liste,193,5,951f9b60-a6d9-59e7-8b98-4b74db572b81
+3707586d,3707586d-a86b-579a-817e-8c3fc30273c0,C,kontrolle,QA Automation,Liste,131,9,0b04e287-8e84-594b-b448-98ab6725580f
+37acfbe2,37acfbe2-f3c6-5513-a8aa-1e1c1be77fb5,C,kontrolle,QA Automation,Liste,253,6,96d25346-883a-5d4a-8bcf-afc24393d443
+3abcadbd,3abcadbd-bfc1-566e-bcc4-96e0bf2a65ff,C,kontrolle,QA Automation,Liste,73,5,ab19c3cf-d79d-5113-aa40-7c4ddc4b71f3
+4d180a1d,4d180a1d-6241-598a-b1e8-b66fe75c23cb,C,kontrolle,QA Automation,Liste,121,11,68479996-5805-55d1-bdce-615af8b13448
+4ee83340,4ee83340-e7a0-5993-8478-87ae4fe5624e,C,kontrolle,QA Automation,Liste,100,8,fd74885a-ae83-5fbd-8ca6-56466db0f9c0
+54c72356,54c72356-c086-52bc-b502-c080e6ee7b47,C,kontrolle,QA Automation,Liste,140,5,4ffc8c0e-eaaf-506d-ac03-b3a185d828c5
+574efe84,574efe84-3e70-5a97-8f17-0bbf189c3cb6,C,kontrolle,QA Automation,Liste,134,6,4606c164-d4f8-563d-9b54-46e437a416ec
+5b60947d,5b60947d-0f5b-5c8d-ae93-e1736331a3af,C,kontrolle,QA Automation,Liste,191,10,42e0fa11-3c58-5e9c-8745-1dd276bcd75f
+69359308,69359308-105d-5cb6-890e-0be3a1945b43,C,kontrolle,QA Automation,kurz,30,5,f90fd552-f422-5fca-9dab-e22ffdbaabbc
+91b2c274,91b2c274-30c7-5248-a944-8333f8535834,C,kontrolle,QA Automation,Liste,86,5,bdb094f4-8573-5931-80c0-9b0fa194d522
+92396f08,92396f08-c25d-57e5-b09d-7494daefe71d,C,kontrolle,QA Automation,Liste,265,7,d1299e96-7b85-533a-926e-2b4f09da6098
+93f77144,93f77144-d61e-5e88-b82c-58764b3689c1,C,kontrolle,QA Automation,Prosa,107,5,cd8d0a4d-c3ab-55ff-bcc4-392ef9c64fc2
+9703a177,9703a177-8334-5630-8d0e-d63802bdeac8,C,kontrolle,QA Automation,Liste,291,11,85245ac8-fc3c-5ce2-bac7-1d46466ad844
+d0cab981,d0cab981-9979-5b66-b9f2-657468c0a998,C,kontrolle,QA Automation,kurz,46,7,e1f3243b-b5bd-5b6a-8a1e-26b8190d39c4
+d7849e88,d7849e88-dd50-5f02-88c1-3af611da1642,C,kontrolle,QA Automation,Liste,309,6,76f7039d-7de1-5f53-a77d-a94085d9ebaa
+eda6ca0e,eda6ca0e-2d77-555c-8c85-b9173dac62aa,C,kontrolle,QA Automation,Prosa,155,8,0c21e39d-9bf7-5210-8a8f-ede066df71c1
+f30afc26,f30afc26-ca64-595c-aa5f-8b3d6641dd77,C,kontrolle,QA Automation,Prosa,105,6,e397f20b-0fe5-5929-9e50-ae879025ba60
+f8ee5faf,f8ee5faf-b480-5c59-8eab-5cf3310b52e2,C,kontrolle,QA Automation,Liste,164,5,31bff990-1eb3-5160-844a-05ec2d5ba843

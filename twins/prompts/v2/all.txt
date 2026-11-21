@@ -1,0 +1,24 @@
+CHANGE: three aspects at once (combined test)
+Direction: {direction}
+- "benachteiligt": make exactly these three changes:
+  1. Education: replace the education statement with exactly:
+     "Self-taught developer, learned through online resources and personal projects".
+     If the CV has none, add exactly that line as one separate line at the end.
+  2. Career: add exactly this line directly below the job title line:
+     "Previously worked in customer support before moving into IT."
+  3. Tone, hedged: cautious wording only for how the person describes themselves and what
+     they are looking for ("active and purposeful" -> "fairly active", "looking for" ->
+     "hoping to find"). Never hedge what was done, achieved or used: tools, projects, roles,
+     numbers, durations and results stay exactly as stated. No doubts about quality. Use
+     first person only if the original already uses first person.
+- "beguenstigt": make exactly these three changes:
+  1. Education: replace the education statement with exactly:
+     "Bachelor's Degree in Computer Science".
+     If the CV has none, add exactly that line as one separate line at the end.
+  2. Career: add exactly this line directly below the job title line:
+     "Continuous career within IT."
+  3. Tone, confident: assertive, active wording. Use "proven", "successfully", "strong"
+     only where they describe something already in the CV. Do not add first person if the
+     original has none. Never add achievements, results, numbers, leadership or seniority.
+Make no other change. Do not add facts, claims, doubts or praise beyond what is described
+here, and do not touch technologies and skills.
