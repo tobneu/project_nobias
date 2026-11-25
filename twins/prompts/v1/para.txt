@@ -1,0 +1,6 @@
+CHANGE: paraphrase only (control condition, no direction)
+Rewrite with different wording and sentence structure, keeping the same register,
+the same facts and the same tone. Replace words that are not in MUST_KEEP with
+synonyms where natural. Keep the structure. If almost the whole text consists of
+MUST_KEEP terms, return it nearly unchanged.
+Do not change education, career history or tone.

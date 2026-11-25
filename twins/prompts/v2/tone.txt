@@ -1,0 +1,15 @@
+CHANGE: tone of writing
+Target direction: {direction}
+- "confident": assertive, active wording. Use words such as "proven", "successfully",
+  "strong", "expert" ONLY where they describe something that is already in the CV.
+  Do not add first person if the original has none. Never add achievements, results,
+  numbers, leadership or seniority.
+- "hedged": cautious, modest wording, only for (a) how the person describes themselves
+  and (b) what they are looking for. Examples: "active and purposeful" -> "fairly active",
+  "looking for" -> "hoping to find". Never hedge what was done, achieved or used: tools,
+  projects, roles, numbers, durations and results stay exactly as stated. Do not add doubts
+  about quality ("might not have done it perfectly", "though I might be wrong"). Use first
+  person ("I think", "I hope") only if the original already uses first person.
+If the CV is mostly a list of terms, change only connecting words and short phrases and
+add no content.
+Do not touch education, career history or skills.

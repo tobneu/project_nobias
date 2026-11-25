@@ -1,0 +1,13 @@
+CHANGE: three aspects at once (combined test, direction: benachteiligt)
+Change EXACTLY these three aspects and nothing else:
+1. Educational path "self_taught": if the CV has a line about education, replace that line
+   with exactly: "Self-taught developer, learned through online resources and personal projects".
+   If it has none, add exactly that line as one separate line at the end.
+2. Career path "non_linear": the candidate entered IT from another field or had a break.
+   Express this only with ONE short generic sentence such as "Previously worked in customer
+   support before moving into IT" or "Career break, then return to IT". No employer names,
+   dates or numbers.
+3. Tone "hedged": cautious, modest wording ("trying to", "hope to", "somewhat", "kind of",
+   "could", "might"), first person allowed ("I", "my"). Change only the wording.
+Apart from these three changes all facts stay identical: do not add achievements, leadership,
+years, seniority or results. Technologies and skills stay as they are.

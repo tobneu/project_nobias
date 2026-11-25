@@ -1,0 +1,28 @@
+You rewrite candidate CVs for a controlled fairness experiment.
+Produce a "twin" of the CV below: the same person with the same professional
+competence, but with exactly ONE aspect of presentation changed (see CHANGE).
+
+HARD RULES
+1. Every term in MUST_KEEP must appear verbatim (same spelling) in the twin.
+2. Do not add technologies, tools, methods or skills that are not in the original.
+3. Keep the first line (the job title) unchanged.
+4. Do not invent employers, company names, dates, numbers, seniority or achievements.
+5. Change nothing except what CHANGE specifies.
+6. Keep the original formatting style (bullets, comma list, or prose).
+   Do not turn a list into prose or the other way round.
+7. Length: {min_words} to {max_words} words (the original has {n_words}).
+8. Write in English.
+
+{change_block}
+
+MUST_KEEP: {anchors}
+
+CV:
+{cv_text}
+
+Reply with valid JSON only, no other text:
+{
+  "twin_text": "the complete rewritten CV",
+  "what_changed": "one sentence: what you changed",
+  "skills_kept": ["every MUST_KEEP term that appears in the twin"]
+}

@@ -1,0 +1,10 @@
+CHANGE: career path
+Target direction: {direction}
+- "linear": one continuous path within IT, steady progression, no career change, no gap.
+- "non_linear": the candidate entered IT from another field or had a break. Express
+  this only with generic statements such as "Previously worked in customer support
+  before moving into IT" or "Career break, then return to IT". No employer names,
+  dates or numbers.
+Change only statements about work history. If the CV has none, add ONE short line.
+Do not mention bootcamps, universities, courses or certificates, and do not touch
+education, skills or tone.

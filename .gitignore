@@ -16,3 +16,13 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 CLAUDE.local.md
+twins/pilot/cvs/
+twins/pilot/raw/
+twins/vollauf/cvs/
+twins/vollauf/raw/
+twins/keywords.pkl
+!data/processed/twins_vollauf_v2.parquet
+!data/processed/vollauf_zwillinge.html
+twins/vollauf/vollauf_zwillinge.html
+twins/vollauf/vollauf_zwillinge.parquet
+

@@ -1,0 +1,18 @@
+{
+  "prompt_version": "v2",
+  "prompt_hash": "23972a71e9c10c6e",
+  "modell_angegeben": "Claude Sonnet 5.5",
+  "cli_model": "sonnet",
+  "seed_richtungen": 2026,
+  "seed_stichprobe": 2026,
+  "erstellt": "2026-11-08T17:26:22",
+  "erzeugung_abgeschlossen": "2026-11-09",
+  "anzahl_quell_cvs": 120,
+  "anzahl_zwillinge": 600,
+  "neugenerierungen": 7,
+  "gescheitert": 0,
+  "stichprobe_ohne_befund": "60 von 60",
+  "freigegeben": "2026-11-21",
+  "eingefroren": "2026-11-21",
+  "hinweis": "Modellname ist eine Angabe, keine geprüfte Information. Temperatur nicht steuerbar."
+}
