@@ -25,4 +25,6 @@ twins/keywords.pkl
 !data/processed/vollauf_zwillinge.html
 twins/vollauf/vollauf_zwillinge.html
 twins/vollauf/vollauf_zwillinge.parquet
+!data/processed/scores_*.parquet
+!data/processed/scores_*_manifest.json
 

@@ -1,0 +1,23 @@
+{
+  "methode": "tfidf",
+  "preset": "baseline",
+  "vektorisierer": {
+    "stop_words": "english",
+    "token_pattern": "(?u)(?<![\\w.])\\.?\\w(?:[\\w.]*\\w)?[+#]*"
+  },
+  "anpassung_auf": "jobs+liste",
+  "vokabular_groesse": 2634,
+  "anzahl_dokumente": 780,
+  "anzahl_stellen": 20,
+  "dokumente_je_typ": {
+    "zwilling": 600,
+    "original": 120,
+    "liste": 60
+  },
+  "eingabe_docs": "scoring_docs.parquet",
+  "eingabe_docs_sha256": "0c894dab516753794430ce0610aa4789b1725f1e705b5bc2b476f4287ad637c6",
+  "eingabe_jobs": "scoring_jobs.parquet",
+  "eingabe_jobs_sha256": "569ea0f7404e5e60d5b110b80bca15f558d480f41bf9ed29fb7243ad8a941e36",
+  "scikit_learn": "1.9.1",
+  "erstellt": "2026-11-21"
+}
