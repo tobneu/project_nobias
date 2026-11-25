@@ -1,0 +1,17 @@
+Gate (all, haupttest, 100 Paare): BESTANDEN
+ --> Mittlerer Jaccard:  0.996  (Ziel >= 0.85)
+ Labels pro CV:      8.2  (Ziel >= 5)
+ Beide Mengen leer:  0.0%  (erlaubt <= 5%)
+
+Mittlerer Jaccard je Methode:
+ESCOX mit Fix (Gate): 0.996
+Hybrid (Matching): 0.997
+ESCOX unverändert: 0.814
+
+Häufig verloren:
+-   1 SQL
+
+Häufig gewonnen:
+-   1 data science
+-   1 manage database
+-   1 design cloud architecture
