@@ -1,0 +1,11 @@
+{
+  "methode": "meritme",
+  "esco_skill_extractor": "0.1.18",
+  "escox_modell": "all-MiniLM-L6-v2",
+  "aehnlichkeitsschwelle": 0.5,
+  "anzahl_dokumente": 780,
+  "anzahl_stellen": 20,
+  "eingabe_docs_sha256": "df36a9805e45cb5180069713fd72580991255c6499c25d021d0bbc517f4bb209",
+  "eingabe_jobs_sha256": "7046323724eef235c8d855055a818033b677193896e07f4d7e670dd2f028e105",
+  "erstellt": "2026-11-26"
+}
