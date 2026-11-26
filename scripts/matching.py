@@ -135,10 +135,8 @@ def extract_skills(text):
     return set((found_by_name | found_by_meaning) & IT_SKILLS - NOISE_SKILLS)
 
 
-def match(job_text, cv_text):
-    """Vergleicht Stelle und CV. Score = Anteil der geforderten Skills, die der CV abdeckt."""
-    required = extract_skills(job_text)
-    offered = extract_skills(cv_text)
+def compare_skills(required, offered):
+    """Score = Anteil der geforderten Skills, die der CV abdeckt."""
     matched = required & offered
     return {
         "score": len(matched) / len(required) if required else 0.0,
@@ -146,3 +144,8 @@ def match(job_text, cv_text):
         "missing": required - offered,
         "extra": offered - required,
     }
+
+
+def match(job_text, cv_text):
+    """Vergleicht Stelle und CV."""
+    return compare_skills(extract_skills(job_text), extract_skills(cv_text))
